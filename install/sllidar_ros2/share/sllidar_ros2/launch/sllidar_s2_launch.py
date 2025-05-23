@@ -1,0 +1,1 @@
+/home/khemin/ws_lidar/src/sllidar_ros2/launch/sllidar_s2_launch.py
