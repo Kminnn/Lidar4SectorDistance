@@ -44,7 +44,7 @@ The /scan topic will appear on rviz2
 ## Run lidar_processing:
 
 Open another terminal then paste these command
-<pre lang="markdown"> cd back up </pre>
+<pre lang="markdown"> cd backup </pre>
 <pre lang="markdown"> source install/setup.bash </pre>
 <pre lang="markdown"> ros2 launch lidar_processing scan_and_processing.launch.py </pre>
 
