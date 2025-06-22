@@ -14,7 +14,7 @@ In /backup remove build, install, log
 Change directory to /backup/src
 <pre lang="markdown"> cd src  </pre>
 
-Remove the existing sllidar_ros2 package and reinstall
+Remove the existing sllidar_ros2 package and reinstall the package
 <pre lang="markdown"> rm -rf sllidar_ros2  </pre>
 <pre lang="markdown"> git clone https://github.com/Slamtec/sllidar_ros2.git </pre>
 
