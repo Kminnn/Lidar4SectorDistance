@@ -1,3 +1,0 @@
-[console_scripts]
-sector_distance_node = lidar_processing.sector_distance_node:main
-

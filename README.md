@@ -2,23 +2,23 @@
 
 ## Setup:
 Paste the following in the terminal
-<pre lang="markdown"> git clone https://github.com/Kminnn/backup.git  </pre>
+<pre lang="markdown"> git clone https://github.com/Kminnn/Lidar4SectorDistance.git  </pre>
 
-In /backup remove build, install, log
-<pre lang="markdown"> cd backup  </pre>
+In /Lidar4SectorDistance remove build, install, log
+<pre lang="markdown"> cd Lidar4SectorDistance  </pre>
 
 <pre lang="markdown"> rm -rf build install log </pre>
 
 ## Compile & Install sllidar_ros2 package
 
-Change directory to /backup/src
+Change directory to /Lidar4SectorDistance/src
 <pre lang="markdown"> cd src  </pre>
 
 Remove the existing sllidar_ros2 package and reinstall the package
 <pre lang="markdown"> rm -rf sllidar_ros2  </pre>
 <pre lang="markdown"> git clone https://github.com/Slamtec/sllidar_ros2.git </pre>
 
-Build your workspace in /backup
+Build your workspace in /Lidar4SectorDistance
 <pre lang="markdown"> cd .. </pre>
 <pre lang="markdown"> colcon build </pre>
 <pre lang="markdown"> source install/setup.bash </pre>
@@ -44,7 +44,7 @@ The /scan topic will appear on rviz2
 ## Run lidar_processing:
 
 Open another terminal then paste these command
-<pre lang="markdown"> cd backup </pre>
+<pre lang="markdown"> cd Lidar4SectorDistance </pre>
 <pre lang="markdown"> source install/setup.bash </pre>
 <pre lang="markdown"> ros2 launch lidar_processing scan_and_processing.launch.py </pre>
 
@@ -58,7 +58,7 @@ If launch succesfully the data will appear like the picture
 ## RPLIDAR A1 setup
 
 Since the package launch file for RPLIDAR A1 scan_mode is set to 'Sensitivity'
-<pre lang="markdown"> cd backup/src/sllidar_ros2/launch/ </pre>
+<pre lang="markdown"> cd Lidar4SectorDistance/src/sllidar_ros2/launch/ </pre>
 <pre lang="markdown"> gedit view_sllidar_a1_launch.py </pre>
 
 In line 20 change to:
